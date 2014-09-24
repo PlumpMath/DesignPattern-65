@@ -3,7 +3,7 @@ package decorator.java;
 public class Main {
 
 	public static void main(String[] args) {
-		Display b1 = new StringDisplay("Hello, worl!d");
+		Display b1 = new StringDisplay("Hello, world!");
 		Display b2 = new SideBorder(b1, '#');
 		Display b3 = new FullBorder(b2);
 		b1.show();
